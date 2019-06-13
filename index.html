@@ -66,9 +66,6 @@
         <div class="span5" style="margin-top: 120px; float:right; background:rgba(0,0,0, 0.9); padding:30px; border-radius:6px">
           <h1>Restaurante en Cadaqués</h1>
           <p>Reserva tu mesa a través de la web</p>
-          <div style="text-align:center">
-            <a href="#reservation"><button class="btn btn-large btn-primary" type="button">Reserva ya!</button></a>
-          </div>
         </div></div>
       </div>
     </header>
@@ -194,86 +191,7 @@
         </div>
       </div>
     </div>
-    <div class="container" id="reservation">
-      <div class="row-fluid">
-        <div class="span4 text-center">
-          <img style="max-width:100px; margin-top:50px; margin-bottom:30px; border-radius:10px" src="lasal.png" alt="Logo restaurante Cadaqués">
-        </div>
-        <div class="span7"><div class="well">
-          <h2 style="margin-top:0px; margin-bottom: 30px">Haz una reserva</h2>
-        <form action="https://formspree.io/wmpeebax" method="POST"> 
-  <input type="hidden" name="_cc" value="yoanncadaques@gmail.com" />
-<input type="hidden" name="_cc" value="victorlasalcadaques@gmail.com" />
-<input type="hidden" name="_cc" value="rosimeirecadaques@gmail.com" />
-<input type="hidden" name="_cc" value="eva@lasalcadaques.com" />
 
-            <input type="text" name="name" placeholder="Nombre">
-            <input type="text" name="telefono" placeholder="Teléfono">
-            <input type="text" name="mail" placeholder="Email">
-            <input type="hidden" name="_next" value="http://lasalcadaques.com/gracias.html" />
-            <div class="row-fluid">
-              <div class="span4">
-                <p style="margin-bottom: 5px">Personas</p>
-                <select name="personas" id="input_1_5" class="medium gfield_select">
-                  <option value="1">1</option>
-                  <option value="2" selected="selected">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6-10">6-10</option>
-                  <option value="11-15">11-15</option>
-                  <option value="16-20">16-20</option>
-                </select>
-              </div>
-              <div class="span4">
-                <p style="margin-bottom: 5px">Fecha</p>
-                <div id="sandbox-container">
-                  <div class="input-append date">
-                    <input type="text" name="fecha" class="span9"><span class="add-on"><i class="icon-th"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="span4">
-                <p style="margin-bottom: 5px">Hora</p>
-                <select name="hora" id="input_1_5" class="medium gfield_select">
-                  <option value="12">12h</option>
-                  <option value="12" selected="selected">13h</option>
-                  <option value="14">14h</option>
-                  <option value="15">15h</option>
-                  <option value="16">16h</option>
-                  <option value="17">17h</option>
-                  <option value="18">18h</option>
-                  <option value="19">19h</option>
-                  <option value="20">20h</option>
-                  <option value="21">21h</option>
-                  <option value="22">22h</option>
-                  <option value="23">23h</option>
-                </select>
-              </div>
-            </div>
-            <input type="hidden" name="_subject" value="Reserva La Sal Castellano"/>
-            <textarea style="width:97%; height: 80px;margin-top:30px" placeholder="Comentario"></textarea>
-            <input class="btn btn-success btn-block" type="submit" value="Reserva ahora!">
-          </form>
-          
-        </div></div>
-      </div>
-
-
-
-      <hr class="soften">
-      <div class="container">
-        <div class="row-fluid" style="margin-top:60px">
-          <div class="span7">
-            <h2>Un lugar privilegiado en el pueblo que sedujo a Dalí</h2>
-            <p>Si Salvador Dalí, cuyo museo es uno de los lugares más visitados de Cadaqués, quedó cautivado por Cadaqués, es porque este pueblecito es realmente un lugar inspirador. No se pierda el museo del artista, aproveche para dar un paseo junto al mar y haga un alto en ‘La Sal’ para disfrutar de la gastronomía local y de la tranquilidad que inspiró también a la flor y nata de artistas del siglo XX, como Pablo Picasso, Federico García Lorca, Henri Matisse, Marcel Duchamp, Eugeni d’Ors, Maurice Boitel o Richard Hamilton.</p>
-          </div>
-          <div class="span5 text-center">
-            <img class="img-circle" style="max-width:300px" src="cadaques-foto-antigua.jpg" alt="Foto de Cadaqués">
-          </div>
-        </div>
-      </div>
-    </div>
 
 
 
@@ -368,13 +286,6 @@
   <script src="js/lightbox.min.js"></script>
 
 
-  <script type="text/javascript">
-  $('#sandbox-container .input-append.date').datepicker({
-  format: "dd/mm/yyyy",
-  weekStart: 1,
-  language: "es",
-  autoclose: true
-  });
-  </script>
+
 </body>
 </html>
